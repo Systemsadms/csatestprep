@@ -1,0 +1,77 @@
+@charset "utf-8"
+/* CSS Document*/
+
+.hidden {display: none;}
+.show { width:243px;}
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+html, body{
+	margin:0;
+	font-size: 1em;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow: none;
+	color: grey;
+}
+
+
+header{
+	width: 100%;
+	height: auto;
+  	background-color: none;
+  	padding: 1%;
+  	border-bottom: 2px solid black;
+  	text-align: center;
+}
+
+		.imgHeader{
+			height: 86px;
+			width: 225px;
+			margin: auto;
+			background-color: none;	
+		}
+
+
+
+section{
+	min-height: 70%;
+	height: auto;
+	width: 100%;
+	background-color: none;
+	padding: 3%;
+	color: black;
+}
+
+#footer{
+	width: 100%;
+	height: 100px;
+  	padding: 1%;
+  	border-top: 2px solid black;
+  	background-color: none;
+  	text-align: center;
+  
+}
+	#footer a{
+		color: white;
+	}
+
+	#comenzarFooter{
+		width: 270px;
+		height: 50px;
+		background-color: #11528c;
+		font-family: inherit;
+		font-size:20px;
+		margin: 15px auto;
+		padding-top: 10px;
+		border-radius: 30px;
+	}
+
+

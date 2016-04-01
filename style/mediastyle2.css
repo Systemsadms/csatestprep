@@ -1,0 +1,622 @@
+ @charset "utf-8";
+/* CSS Document */
+
+
+/***************************************** (960px) (YELLOW) ******************************************/
+
+@media (max-width:960px){
+
+
+/**********header********/
+
+
+
+#header2{
+	height: 8em;
+	width: 100%;
+	background-color: none;
+	margin: 0 auto;
+	position: relative;
+}
+
+	#logo{
+		width: 14em;
+		height: 80%;
+		float: none;		
+		background-color: none;
+		margin: 0 auto;
+	}
+
+		#logo img{
+				position: none;
+				width: 100%;
+				height: 100%;
+				top:0;
+			}
+
+	#menu{
+		background-color: white;
+		float: none;
+		height: 20%;
+		width: 100%;
+	}
+
+		#menu nav{
+			background-color: none;
+			height: 100%;
+			width: 45em;
+			position: relative;
+			top:0;
+			text-align: center;
+			margin: 0 auto;					
+		}
+
+			ul{
+					margin-bottom: -0.8em; /*Ajuste de la alura contenido barra de navegacion*/	
+					margin-left: -2.75em;	/*Ajuste el margen derecho de la lista*/			
+				}
+
+					li{
+						height: 1em;
+						width: auto;
+						margin-left: 1em;
+						float: left;
+						list-style: none;
+						margin-bottom: 0.2em;/*Separacion de enlaces nav*/
+						background-color: white;
+						font-size: 1em;
+						font-family:Arial, Helvetica, sans-serif;
+						background-color: none;
+					}
+/*******FIN header******/
+
+	
+/******************** SECTION ****************/
+
+
+	
+		section div{
+		height: 90%;		
+		width: 100%;
+		position: relative;
+		margin:0 auto;
+		top: 1.7em;
+		background: url("../img/slider2.jpg");
+		background-size: 1000px 100%;
+    	background-repeat: no-repeat;
+		background-color: red;
+		}
+
+		
+	#camposLogin{	
+		width: 100%;
+		margin: 0 auto;			
+	}
+
+		
+
+
+		#user{		
+			width: 50%;
+			text-align: center;		
+		}
+
+			#user input{
+				border
+			}
+
+		#pass{
+			width: 50%;		
+			text-align: center;
+			padding-left: 0em;
+		}
+
+			#pass a{				
+				margin-left: 2em;				
+			}
+
+
+
+			#camposLogin a{		
+				margin-right:0;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contenido1{
+	font-size: 0.9em;
+	line-height: 1.2em;
+	height: 18em;
+	width: 100%;
+	background-color: none;
+	margin-top: 0.1em;
+	/*background: url("../img/salon2bk.jpg");*/
+
+}
+
+#contenido1into{
+	height: auto;
+	width: 100%;
+	/*background-color: red;*/
+	margin: 0 auto;
+	position: relative;
+	background-color: none;
+}
+
+		#cajaleft{
+			height: auto;
+			width: 50%;
+			background-color: none;
+			float: left;
+			padding-right: 5em;
+			padding-top: 1.5em;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box; 			
+		}
+			
+
+		#cajaright{
+			height: auto;
+			width: 50%;
+			background-color: none;
+			float: left;
+			padding-left: 0em;
+			padding-top: 1.5em;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+		}			
+
+/********************FIN SECTION ****************/						
+	
+
+
+/********************Contenido RESPONSIVE PARA CONTENIDO GENERAL****************/	
+#contenidoConteido{
+				width: 100%;
+				padding-left:1em;
+				padding-right:1em;
+			}
+
+
+/********************Fin Contenido RESPONSIVE PARA CONTENIDO GENERAL****************/
+
+
+
+
+/****** Contenido para contacto********************************/
+
+	#contenidoContacto{
+				font-size: 0.9em;
+				line-height: 1.2em;
+				height: 63em;
+				width: 100%;
+				margin: 0em auto 1em auto;
+				background-color: white;	
+				padding-left:2em;
+				padding-right:2em;
+				padding-top: 1em;
+			}
+
+		#contenidoContacto h1{
+			font-size: 1em;
+			color: #0B4F8C;
+		} 
+
+	#mensaje{
+		height: 20em;
+		width: 100%;		
+		background-color: white;
+		float: none;
+		text-align: center;
+	}
+
+			#label{
+				width: 30%;
+				float: left;
+				background-color: none;
+				margin-bottom: 1em;
+				text-align: center;
+			}
+
+			#input{
+				width: 70%;
+				float: left;
+				background-color: none;
+				margin-bottom: 1em;
+				text-align: left;
+			}
+
+
+	#direccion{
+		height: 20em;
+		width: 100%;
+		background-color: white;
+		float: none;
+		text-align: center;
+	}
+
+/****** FIN Contenido para contacto********************************/
+
+
+/********************FIN SECTION ****************/	
+
+/******************** FOOTER ****************/		
+	
+/******************** FIN FOOTER ****************/			
+		
+}	
+/***************************************** FIN (960px) ****************************************************/	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************** (710px) (YELLOW) ******************************************/
+
+@media (max-width:710px){
+
+
+/**********header*********/
+.hidden {display: none;}
+.show {width:243px;}
+
+#header2{
+	text-align: center;
+	height: auto;
+	width: 100%;
+	background-color: none;
+	margin: 0 auto;
+	position: relative;
+}
+/*
+	#logo{
+		width: 18.7em;
+		height: 5em;
+		float: none;		
+		background-color: none;
+		margin: 0 auto;
+	}
+*/
+		#logo{
+		width: 100%;
+		height: 5em;
+		float: none;		
+		background-color: none;
+		margin: 0 auto;
+	}
+
+		#logo img{
+				position: relative;
+				
+				width: 14em;
+				height: 100%;
+				top:0;
+				
+
+			}
+
+		
+	#menu{
+		/*menu ocualto*/		
+		background-color: white;
+		float: none;
+		height: auto;
+		width: 100%;
+	}
+
+		#menuSmart
+		{	
+			position: relative;
+			width: 2.3em;
+			height: 2.3em;
+			background-color: none;
+			top: -3.5em;
+			left: 15em;			
+		}
+			
+
+
+
+		#menu nav{
+			background-color: white;
+			height: 100%;
+			width: 100%;
+			position: relative;
+			top:0;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+			ul{
+					margin-bottom: -0.4em; /*Ajuste de la alura contenido barra de navegacion*/
+					margin-left: -2.75em;	/*Ajuste el margen derecho de la list*/	
+				}
+
+					li{						
+						height: 1.5em;
+						width: auto;
+						margin-left: 0em;
+						float: none;
+						list-style: none;
+						margin-bottom: 0.2em;/*Separacion de enlaces nav*/
+						background-color: white;
+						font-size: 1em;
+						font-family:Arial, Helvetica, sans-serif;
+						background-color: white;
+					}
+/*******FIN header******/
+
+
+
+/******************** SECTION ****************/
+
+
+
+		
+	section div{
+		height: 90%;		
+		width: 100%;
+		position: relative;
+		margin:0 auto;
+		top: 1.7em;
+		background: url("../img/slider2.jpg");
+		background-size: 1000px 100%;
+		background-position: -5em;
+    	background-repeat: no-repeat;
+		background-color: red;
+		}
+
+#login{
+	height: 6em;
+	width: 100%;
+	background-color: none;
+	/*background: url("../img/salon2bk.jpg");*/
+
+}
+	#camposLogin{	
+		width: 100%;
+		text-align: center;	
+		background-color: none;
+	}
+
+		#user{		
+			width: 100%;
+			text-align: center;
+			float: none;
+			margin: 0 auto;
+			padding: 0;
+		}
+
+			#user input{				
+			}
+
+		#pass{
+			width: 100%;		
+			text-align: center;		
+			float: none;
+			margin: 0 auto;
+			margin-top: 1em;
+
+		}
+
+			#camposLogin a{		
+				color: grey;
+				position: relative;
+				float: none;
+				margin-bottom:4em;
+				margin-right:0;
+			}
+
+/******************** FIN SECTION ****************/
+
+
+
+
+
+
+#contenido1{
+	height: auto;
+	width: 100%;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	background-color: white;
+	margin-top: 0.1em;	
+	/*background: url("../img/salon2bk.jpg");*/
+
+}
+
+#contenido1into{
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	background-color: none;
+}
+
+		#cajaleft{
+			height: auto;
+			width: 100%;
+			background-color: none;
+			float: none;
+			padding-right: 1em;
+			padding-top: 1.5em;
+			margin: 0 auto;
+			text-align: center;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box; 			
+		}
+			
+
+		#cajaright{
+			height: auto;
+			width: 100%;
+			background-color: none;
+			float: none;
+			padding-left: 0em;
+			padding-top: 1.5em;
+			margin: 0 auto;
+			text-align: center;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+		}
+
+
+					#readmore{
+								height: 2em;
+								width: 5em;
+								background-image: url("../img/leermas.png");
+								margin-left: 0.5em;
+								padding-top: 0.2em;
+								padding-left: 0.5em;
+								color: white;		
+							}
+
+
+
+
+
+
+
+
+		#cajasNoticias{
+			height: auto;
+			width: 100%;
+			background-color: white;
+			float: left;
+			padding-right: 2em;
+			padding-top: 0.5em;
+			padding-left:2em;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box; 
+		    font-size: 0.9em;		 		
+		}
+
+			#cajasNoticias p{
+				font-size: 1.1em;
+			}
+
+
+
+
+
+#contenido3{
+	height: auto;
+	width: 100%;
+	float: none;
+	font-size: 0.9em;
+	background-color: blue;
+	margin-top: 0.2em;
+}
+
+	#cajasNoticias3{
+			height: auto;
+			width: 100%;
+			background-color: white;
+			float: left;
+			padding-right: 2em;
+			padding-top: 0.5em;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box; 
+		    font-size: 0.9em;
+		    margin: 1em 0 0 0;
+		    text-align: center;
+		}
+
+		#cajasNoticias3 p{
+			font-size: 1.5em;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************Contenido RESPONSIVE PARA CONTENIDO GENERAL****************/
+
+#titulo{
+	height: 4em;
+	width: 100%;
+	margin: none;
+	position: relative;
+	background-color: none;
+	text-align: center;
+}
+
+
+	#titulo h1{	
+		font-style: none;
+		font-size: 30px;		
+		color: #0B4F8C;
+		margin:0 auto;
+		margin-top: 0.7em;
+		margin-left: 0em;
+		font-family: Arial,sans-serif;
+		
+	}
+
+#contenidoConteido{
+				width: 100%;
+				padding-left:1em;
+				padding-right:1em;
+			}
+
+
+	#contenidoConteido img{
+		margin-left: -6em;
+	}
+
+
+	
+/********************Fin Contenido RESPONSIVE PARA CONTENIDO GENERAL****************/
+
+
+
+
+
+
+/***************************************** (500px) Inscripccion y asesoria******************************************/
+
